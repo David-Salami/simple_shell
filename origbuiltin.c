@@ -155,7 +155,7 @@ write(STDOUT_FILENO, new_line, 1);
 }
 free(oldpwd);
 free(pwd);
-ree(dir_info);
+free(dir_info);
 return (0);
 }
 
